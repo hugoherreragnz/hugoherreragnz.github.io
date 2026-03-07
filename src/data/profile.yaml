@@ -11,13 +11,11 @@
     - "Soy estudiante de Matemáticas e Informática y me interesa especialmente la intersección entre programación, datos y cloud. Disfruto entendiendo problemas complejos, estructurándolos bien y llevándolos a soluciones útiles."
     - "Actualmente estoy centrado en seguir desarrollando mi perfil técnico en programación, sistemas de datos y herramientas cloud, con especial interés en construir soluciones bien pensadas y bien implementadas."
   skills:
-    - TypeScript
     - React
-    - Astro
     - Node.js
     - Python
-    - Figma
+    - R
+    - Java
+    - JavaScript
+    - SQL
     - Accessibility
-    - Design Systems
-    - Open Source
-    - Technical Writing
