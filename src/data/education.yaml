@@ -1,22 +1,30 @@
-- id: upm-cs
-  institution: Universidad Politécnica de Madrid
-  degree: Bachelor's Degree
-  field: Computer Science
-  startDate: 2019-09-01
-  endDate: 2023-06-30
-  description: Specialized in software engineering and human-computer interaction.
+- id: uam-dgiim
+  institution: Universidad Autónoma de Madrid
+  degree: Doble grado en matemáticas e ingeniería informática
+  field: Ingeniería, Ciencias
+  startDate: 2021-09-01
+  endDate: 2026-06-01
+  description: Especialización en análisis de datos y software engineering.
   details:
-    - "Thesis: 'Accessible Design Systems — A Pattern Language for Inclusive UI Components' (Grade: 9.2/10)"
-    - Active member of the university's open-source club and hackathon team
-    - Dean's list for 3 consecutive semesters
+    - "Trabajo Fin de Grado: Aplicación web para estudio de usuarios de sistemas de recomendación"
+    - "Optativas relevantes: Estadística II, Inteligencia Artificial"
 
-- id: google-ux
-  institution: Google / Coursera
-  degree: Professional Certificate
-  field: UX Design
-  startDate: 2023-02-01
-  endDate: 2023-07-15
-  description: Completed the 7-course Google UX Design Professional Certificate.
+- id: sorbonne-dgiim
+  institution: Sorbonne Université, Paris
+  degree: Double Licence Informatique - Mathématiques
+  field: Ingeniería, Ciencias
+  startDate: 2024-09-01
+  endDate: 2025-06-01
+  description: Programa Erasmus+.
   details:
-    - Learned the full UX design process from research and wireframing to high-fidelity prototyping
-    - Created 3 end-to-end case studies with real user testing and iterative design
+    - "Optativas relevantes: Probabilidad II, Diseños y Modelos de Sistemas"
+
+- id: google-da
+  institution: Google Cloud Data Analyst Certificate
+  degree: Professional Certificate
+  field: Data Analyst
+  startDate: 2026-02-26
+  description: Completado the 5-course Google Google Cloud Data Analyst Certificate.
+  details:
+    - He aprendido aplicaciones y frameworks habituales de Google Cloud Platform, como BigQuery, Looker Studio, Analytics Hub, Dataplex. 
+    - Caso práctico de solución digital a un negocio, análisis de requisitos y visualización de datos. 
