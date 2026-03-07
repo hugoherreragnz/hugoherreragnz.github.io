@@ -7,7 +7,7 @@ import { formatDateRange } from '../../utils/formatDate';
 interface Props {
   institution: string;
   degree: string;
-  field: string;
+  field?: string;
   startDate: Date;
   endDate?: Date;
   description?: string;
@@ -23,7 +23,8 @@ const dateRange = formatDateRange(startDate, endDate);
 
   <div class="edu-item__content">
     <header class="edu-item__header">
-      <h3 class="edu-item__degree">{degree} in {field}</h3>
+      <h3 class="edu-item__degree">{degree}</h3>
+      {field && <h3 class="edu-item__degree"> in {field}</h3>}
       <p class="edu-item__institution">{institution}</p>
       <time class="edu-item__date">{dateRange}</time>
     </header>

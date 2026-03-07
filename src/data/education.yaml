@@ -1,7 +1,6 @@
 - id: uam-dgiim
   institution: Universidad Autónoma de Madrid
-  degree: Doble grado en matemáticas e ingeniería informática
-  field: Ingeniería, Ciencias
+  degree: Doble grado en Matemáticas e Ingeniería Informática
   startDate: 2021-09-01
   endDate: 2026-06-01
   description: Especialización en análisis de datos y software engineering.
@@ -16,6 +15,7 @@
   description: Programa Erasmus+.
   details:
     - "Optativas relevantes: Probabilidad II, Diseños y Modelos de Sistemas"
+
 - id: google-da
   institution: Google Cloud Data Analyst Certificate
   degree: Professional Certificate
@@ -25,6 +25,28 @@
   details:
     - He aprendido aplicaciones y frameworks habituales de Google Cloud Platform, como BigQuery, Looker Studio, Analytics Hub, Dataplex. 
     - "Caso práctico de solución digital a un negocio: análisis de requisitos y visualización de datos." 
+
+- id: dualdiploma
+  institution: Academica International Studies
+  degree: Dual Diploma Program
+  startDate: 2018-09-01
+  endDate: 2021-06-01
+  description: Programa oficial de convalidación internacional de títulos de bachillerato estadounidense.
+  details:
+    - "GPA: 4.0/4.0"
+
+- id: colegiocaton
+  institution: Colegio El Catón
+  degree: Bachillerato tecnológico
+  startDate: 2019-09-01
+  endDate: 2021-06-01
+  description: Bachillerato científico-tecnológico.
+  details:
+    - "Nota: 9.98/10." 
+    - "Nota EvAU: 13,517."
+    - "Graduado con matrícula de honor."
+
+
 
 
 
