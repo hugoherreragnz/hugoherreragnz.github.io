@@ -117,7 +117,7 @@ export const collections = {
   profile,
   education,
   experience,
-  // volunteering,
+  volunteering,
   projects,
   posts,
 };
