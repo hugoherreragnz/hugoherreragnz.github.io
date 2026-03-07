@@ -11,8 +11,8 @@ const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const sortedPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
-<BaseLayout title="Posts" description="Thoughts, learnings, and ideas about software development.">
-  <Section title="Posts" subtitle="Thoughts, learnings, and ideas">
+<BaseLayout title="Posts" description="Pensamientos, aprendizajes e ideas acerca de desarrollo de software.">
+  <Section title="Posts" subtitle="Pensamientos, aprendizajes e ideas.">
     <div class="posts-grid">
       {
         sortedPosts.map((post) => (
@@ -27,7 +27,7 @@ const sortedPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
       }
     </div>
 
-    {sortedPosts.length === 0 && <p class="empty-state">No posts yet. Check back soon!</p>}
+    {sortedPosts.length === 0 && <p class="empty-state">Todavía no hay ningún post. ¡Nos vemos pronto!</p>}
   </Section>
 </BaseLayout>
 

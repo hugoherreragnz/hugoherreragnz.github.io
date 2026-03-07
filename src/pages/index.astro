@@ -31,17 +31,17 @@ const latestPosts = allPosts
   <HeroSection />
 
   {/* ─── About ─── */}
-  <Section id="about" title="About" subtitle="A little bit about me">
+  <Section id="about" title="Sobre mí" subtitle="Un poco más acerca de mí">
     <AboutSection />
   </Section>
 
   {/* ─── Experience ─── */}
-  <Section id="experience" title="Experience" subtitle="Where I've worked">
+  <Section id="experience" title="Experiancia" subtitle="">
     <ExperienceList />
   </Section>
 
   {/* ─── Education ─── */}
-  <Section id="education" title="Education" subtitle="My academic background">
+  <Section id="education" title="Educación" subtitle="Mi formación">
     <EducationList />
   </Section>
 
@@ -51,15 +51,15 @@ const latestPosts = allPosts
   </Section>
 
   {/* ─── Projects ─── */}
-  <Section id="projects" title="Projects" subtitle="Things I've built">
+  <Section id="projects" title="Proyectos" subtitle="Proyectos en los que he trabajado">
     <ProjectsGrid featured />
     <div class="section-cta">
-      <Button href="/projects" variant="outline" size="sm">View all projects →</Button>
+      <Button href="/projects" variant="outline" size="sm">Ver todos los proyectos →</Button>
     </div>
   </Section>
 
   {/* ─── Latest Posts ─── */}
-  <Section id="posts" title="Latest Posts" subtitle="Thoughts, learnings, and ideas">
+  <Section id="posts" title="Últimos posts" subtitle="Pensamientos, aprendizajes e ideas.">
     <div class="posts-grid">
       {
         latestPosts.map((post) => (
@@ -74,7 +74,7 @@ const latestPosts = allPosts
       }
     </div>
     <div class="section-cta">
-      <Button href="/posts" variant="outline" size="sm">View all posts →</Button>
+      <Button href="/posts" variant="outline" size="sm">Ver todos los posts →</Button>
     </div>
   </Section>
 </BaseLayout>

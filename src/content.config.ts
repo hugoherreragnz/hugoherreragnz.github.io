@@ -115,9 +115,9 @@ const posts = defineCollection({
 /* ─── Export all collections ────────────────────────────── */
 export const collections = {
   profile,
-  experience,
   education,
-  volunteering,
+  experience,
+  // volunteering,
   projects,
   posts,
 };
