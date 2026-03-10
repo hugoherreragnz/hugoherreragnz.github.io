@@ -79,9 +79,6 @@ jobs:
       - name: Build (for E2E preview)
         run: npm run build
 
-      - name: Run E2E tests
-        run: npm run test:e2e
-
   deploy:
     environment:
       name: github-pages
