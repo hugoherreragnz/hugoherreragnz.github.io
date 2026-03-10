@@ -13,17 +13,9 @@ import HeroSection from '../components/portfolio/HeroSection.astro';
 import AboutSection from '../components/portfolio/AboutSection.astro';
 import ExperienceList from '../components/portfolio/ExperienceList.astro';
 import EducationList from '../components/portfolio/EducationList.astro';
-import VolunteeringList from '../components/portfolio/VolunteeringList.astro';
 import ProjectsGrid from '../components/portfolio/ProjectsGrid.astro';
-import PostCard from '../components/portfolio/PostCard.astro';
 import Button from '../components/ui/Button.astro';
-import { getCollection } from 'astro:content';
 
-// Get latest 3 posts (non-draft, sorted by date)
-// const allPosts = await getCollection('posts', ({ data }) => !data.draft);
-// const latestPosts = allPosts
-//   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-//   .slice(0, 3);
 ---
 
 <BaseLayout>
@@ -45,11 +37,6 @@ import { getCollection } from 'astro:content';
     <EducationList />
   </Section>
 
-  {/* ─── Volunteering ─── */}
-  <!-- <Section id="volunteering" title="Volunteering" subtitle="Giving back to the community">
-    <VolunteeringList />
-  </Section> -->
-
   {/* ─── Projects ─── */}
   <Section id="projects" title="Proyectos" subtitle="Proyectos en los que he trabajado">
     <ProjectsGrid featured />
@@ -58,25 +45,6 @@ import { getCollection } from 'astro:content';
     </div>
   </Section>
 
-  {/* ─── Latest Posts ─── */}
-  <!-- <Section id="posts" title="Últimos posts" subtitle="Pensamientos, aprendizajes e ideas.">
-    <div class="posts-grid">
-      {
-        latestPosts.map((post) => (
-          <PostCard
-            title={post.data.title}
-            description={post.data.description}
-            pubDate={post.data.pubDate}
-            tags={post.data.tags}
-            slug={post.id}
-          />
-        ))
-      }
-    </div>
-    <div class="section-cta">
-      <Button href="/posts" variant="outline" size="sm">Ver todos los posts →</Button>
-    </div>
-  </Section> -->
 </BaseLayout>
 
 <style>
