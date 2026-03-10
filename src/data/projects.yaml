@@ -1,6 +1,6 @@
 - id: meeplechoice
   title: Meeple Choice
-  description: plataforma web de para realizar un estudio de usuarios de distintos algoritmos de recomendación basados en contextos y personalización. (ongoing)
+  description: Plataforma web de para realizar un estudio de usuarios de distintos algoritmos de recomendación basados en contextos y personalización. (ongoing)
   tags:
     - JavaScript
     - React

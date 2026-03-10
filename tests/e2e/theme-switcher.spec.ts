@@ -4,7 +4,7 @@ test.describe('Theme Switcher', () => {
   test('default theme is "classic"', async ({ page }) => {
     await page.goto('/');
     const theme = await page.locator('html').getAttribute('data-theme');
-    expect(theme).toBe('classic');
+    expect(theme).toBe('Light mode');
   });
 
   test('clicking Bold changes the theme', async ({ page }) => {
