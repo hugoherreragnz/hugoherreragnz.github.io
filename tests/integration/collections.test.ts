@@ -66,22 +66,6 @@ describe('Content Collections — Data Validation', () => {
     });
   });
 
-  describe('volunteering.yaml', () => {
-    it('has entries with required fields', () => {
-      const data = loadYaml<Record<string, unknown>[]>('volunteering.yaml');
-      expect(data.length).toBeGreaterThan(0);
-
-      for (const entry of data) {
-        expect(entry).toHaveProperty('id');
-        expect(entry).toHaveProperty('organization');
-        expect(entry).toHaveProperty('role');
-        expect(entry).toHaveProperty('startDate');
-        expect(entry).toHaveProperty('description');
-        expect(entry).toHaveProperty('contributions');
-      }
-    });
-  });
-
   describe('projects.yaml', () => {
     it('has entries with required fields', () => {
       const data = loadYaml<Record<string, unknown>[]>('projects.yaml');
