@@ -1,34 +1,52 @@
-- id: taskflow
-  title: Taskflow
-  description: A minimalist productivity app with real-time collaboration, built with Astro and TypeScript. Features drag-and-drop Kanban boards, keyboard shortcuts, and offline support.
+- id: meeplechoice
+  title: Meeple Choice
+  description: plataforma web de para realizar un estudio de usuarios de distintos algoritmos de recomendación basados en contextos y personalización. (ongoing)
   tags:
-    - Astro
-    - TypeScript
-    - IndexedDB
-    - WebSockets
-  url: https://taskflow.demo.dev
-  repo: https://github.com/elenanavarro/taskflow
+    - JavaScript
+    - React
+    - Python
+    - Django
+    - API
+    - SQL
+    - Full-stack
   featured: true
 
-- id: dataviz-studio
-  title: DataViz Studio
-  description: An interactive data visualization dashboard that turns raw CSV/JSON data into beautiful, shareable charts. Built with Python backend and D3.js frontend.
+- id: regresion-fda
+  title: Análisis del modelo de regresión RKHS
+  description: Estudio del rendimiento del modelo usual de regresión funcional $L^2$ contra el modelo de regresión RKHS. (ongoing)
   tags:
     - Python
-    - D3.js
-    - FastAPI
-    - Data Visualization
-  url: https://dataviz-studio.demo.dev
-  repo: https://github.com/elenanavarro/dataviz-studio
+    - Scikit-fda
+    - Análisis funcional
+    - Modelos
+    - Visualización de datos
   featured: true
 
-- id: opencontrib
-  title: OpenContrib CLI
-  description: A command-line tool that helps developers find and track their open-source contributions across GitHub. Written in Rust for blazing-fast performance.
+- id: convolutionCUDA
+  title: Convoluciones de imágenes en CUDA
+  description: Un pequeño programa que implementa convoluciones de dos dimensiones aplicadas a imágenes. Se compara la mejora de rendimiento de la versión CPU vs. GPU, además de una pequeña demostración procesando imágenes en tiempo real de la webcam. 
   tags:
-    - Rust
-    - CLI
-    - GitHub API
-    - Open Source
-  repo: https://github.com/elenanavarro/opencontrib
+    - CUDA
+    - GPU
+    - Procesamiento de imágenes
   featured: true
+
+- id: classifier
+  title: Construcción de un clasificador
+  description: Construcción de un clasificador binario para el dataset 'german_credit' para predecir el impago de préstamos. Se ha realizado procesamiento de datos, análisis y ajuste de hiperparámetros para estudiar el rendimiento de diferentes tipo sde hiperpaámetros.
+  tags:
+    - Python
+    - Scikit-learn
+    - Procesamiento de datos
+    - Análisis de datos
+  featured: false
+
+- id: organizzo
+  title: Diseño e implementación de un fórum web
+  description: Creación de un fórum de intercambio de mensajes. Diseño y análisis de requisitos e implementación de una API. Se permite la subscripción de usuarios a distintos foros, responder mensajes e incluye un motor de búsqueda. Se establecen distintos roles de usuario. 
+  tags:
+    - Node
+    - React
+    - MongoDB
+    - CSS
+  featured: false

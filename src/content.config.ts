@@ -69,19 +69,19 @@ const education = defineCollection({
 });
 
 /* ─── Volunteering ──────────────────────────────────────── */
-const volunteering = defineCollection({
-  loader: file('src/data/volunteering.yaml'),
-  schema: z.object({
-    id: z.string(),
-    organization: z.string(),
-    role: z.string(),
-    url: z.string().url().optional(),
-    startDate: z.coerce.date(),
-    endDate: z.coerce.date().optional(),
-    description: z.string(),
-    contributions: z.array(z.string()),
-  }),
-});
+// const volunteering = defineCollection({
+//   loader: file('src/data/volunteering.yaml'),
+//   schema: z.object({
+//     id: z.string(),
+//     organization: z.string(),
+//     role: z.string(),
+//     url: z.string().url().optional(),
+//     startDate: z.coerce.date(),
+//     endDate: z.coerce.date().optional(),
+//     description: z.string(),
+//     contributions: z.array(z.string()),
+//   }),
+// });
 
 /* ─── Projects ──────────────────────────────────────────── */
 const projects = defineCollection({
@@ -117,7 +117,7 @@ export const collections = {
   profile,
   education,
   experience,
-  volunteering,
+  // volunteering,
   projects,
-  posts,
+  // posts,
 };

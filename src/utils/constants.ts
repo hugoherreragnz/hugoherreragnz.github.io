@@ -12,23 +12,23 @@ export const SITE_DESCRIPTION =
 /** Navigation links shown in the Navbar */
 export const NAV_LINKS = [
   { label: 'Home', href: '/' },
-  { label: 'Posts', href: '/posts' },
+  // { label: 'Posts', href: '/posts' },
   { label: 'Projects', href: '/projects' },
 ] as const;
 
 /** Available themes — must match filenames in src/styles/themes/ */
 export const THEMES = [
-  { id: 'classic', label: 'Classic' },
-  { id: 'bold', label: 'Bold' },
-  { id: 'mono', label: 'Mono' },
-  { id: 'retro', label: 'Retro Mac' },
-  { id: 'futura', label: 'Futura' },
-  { id: 'finance', label: 'Finance' },
-  { id: 'quant', label: 'Quant' },
-  { id: 'math', label: 'Math' },
+  // { id: 'classic', label: 'Classic' },
+  // { id: 'bold', label: 'Bold' },
+  // { id: 'mono', label: 'Mono' },
+  // { id: 'retro', label: 'Retro Mac' },
+  // { id: 'futura', label: 'Futura' },
+  // { id: 'finance', label: 'Finance' },
+  { id: 'quant', label: 'Dark mode' },
+  { id: 'math', label: 'Light mode' },
 ] as const;
 
-export const DEFAULT_THEME = 'classic';
+export const DEFAULT_THEME = 'Light mode';
 
 /** OG Image fallback */
 export const OG_IMAGE = '/og-image.png';

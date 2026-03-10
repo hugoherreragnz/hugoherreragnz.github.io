@@ -20,10 +20,10 @@ import Button from '../components/ui/Button.astro';
 import { getCollection } from 'astro:content';
 
 // Get latest 3 posts (non-draft, sorted by date)
-const allPosts = await getCollection('posts', ({ data }) => !data.draft);
-const latestPosts = allPosts
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 3);
+// const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+// const latestPosts = allPosts
+//   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+//   .slice(0, 3);
 ---
 
 <BaseLayout>
@@ -36,7 +36,7 @@ const latestPosts = allPosts
   </Section>
 
   {/* ─── Experience ─── */}
-  <Section id="experience" title="Experiancia" subtitle="">
+  <Section id="experience" title="Experiencia" subtitle="">
     <ExperienceList />
   </Section>
 
@@ -46,9 +46,9 @@ const latestPosts = allPosts
   </Section>
 
   {/* ─── Volunteering ─── */}
-  <Section id="volunteering" title="Volunteering" subtitle="Giving back to the community">
+  <!-- <Section id="volunteering" title="Volunteering" subtitle="Giving back to the community">
     <VolunteeringList />
-  </Section>
+  </Section> -->
 
   {/* ─── Projects ─── */}
   <Section id="projects" title="Proyectos" subtitle="Proyectos en los que he trabajado">
@@ -59,7 +59,7 @@ const latestPosts = allPosts
   </Section>
 
   {/* ─── Latest Posts ─── */}
-  <Section id="posts" title="Últimos posts" subtitle="Pensamientos, aprendizajes e ideas.">
+  <!-- <Section id="posts" title="Últimos posts" subtitle="Pensamientos, aprendizajes e ideas.">
     <div class="posts-grid">
       {
         latestPosts.map((post) => (
@@ -76,7 +76,7 @@ const latestPosts = allPosts
     <div class="section-cta">
       <Button href="/posts" variant="outline" size="sm">Ver todos los posts →</Button>
     </div>
-  </Section>
+  </Section> -->
 </BaseLayout>
 
 <style>
